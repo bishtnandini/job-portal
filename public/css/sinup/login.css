@@ -1,0 +1,85 @@
+body{
+    background-color: bisque;
+    background-image: url("https://www.zomato.com/blog/wp-content/uploads/2023/02/blog-size-e1677043248892.png");
+    background-size: contain;
+    
+}
+
+
+.wrapper{
+    width: 450px;
+    /* height: 750px; */
+    margin: 50px auto;
+    padding: 2rem 1rem;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 2);
+
+}
+h1{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+form input{
+    width: 312px;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+
+}
+/* input:focus{
+    border: 2px solid rgb(192, 192, 192);
+} */
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-radius: 20px;
+    border: none;
+    width: 90%;
+    cursor: pointer;
+    color: white;
+    background-color: aquamarine;
+}
+.terms{
+    margin-top: 12px;
+
+}
+.terms input{
+    height: 18px; /*box ka hight*/
+    width: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.terms label{
+    font-size: 18px;
+}
+.terms a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+
+}
+.member{
+    font-size: 18px;
+    
+}
+.member a {
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}
+.recover{
+    text-align: right;
+    font-size: 18px;
+    margin: 5px 5px 0 0;
+}
+.recover a{
+    text-decoration: none;
+    color: #464647;
+}
